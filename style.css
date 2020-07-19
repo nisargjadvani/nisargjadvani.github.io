@@ -1,0 +1,81 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-image: linear-gradient(#766dff 0%, #88f3ff 100%);
+}
+
+header {
+  height: 60px;
+    width:100%;
+  background-color: rgba(34, 49, 52);
+  position:fixed;
+  top:0px;
+  z-index:10;
+}
+
+.header-right a{
+  float:left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+    color:cadetblue;
+  background-color: rgba(255, 255, 255);
+}
+
+.header-right a{
+  line-height: 60px;
+  padding: 0 15px;
+    margin: 0 5px;
+  color: white;
+  display: block;
+  background-color: rgba(34, 49, 52);
+}
+
+nav ul li a.nav-item{
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a.nav-item.current {
+  background: black;
+}
+
+.intro{
+    padding-top: 120px;
+}
+
+.menu-list li{
+    list-style: none;
+    float: left;
+}
+.about-section{
+    background-image:url (images/aboutme.jpg);
+    padding:20px;
+    padding-top: 25px;
+}
+.experience-section{
+    padding:50px;
+   
+}
+
+.education-section{
+    padding:50px;
+}
+
+.projects-section{
+    padding:50px;
+    display:flex;
+}
+.project-content{
+    flex:1 1 150px;
+}
+.progress-bar{
+    background-image: linear-gradient(#766dff 0%, #88f3ff 100%);
+    transition: width .6s ease;
+    height: 20px;
+    border-radius: 5px;
+    vertical-align: middle;
+    align-self: center;
+}
